@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: optimus:0.20.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/optimus/optimus/0.20.2/optimus-0.20.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

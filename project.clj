@@ -6,8 +6,9 @@
   :dependencies [[org.clojure/clojure "1.10.3"]
                  [stasis "2.5.1"]
                  [ring "1.9.5"]
-                 [markdown-clj "1.10.5"]
-                 [hiccup "1.0.5"]]
+                 [markdown-clj "1.10.8"]
+                 [hiccup "1.0.5"]
+                 [optimus "0.20.2"]]
   :plugins [[lein-ring "0.12.6"]]
   :ring {:handler hh-website.core/app}
   :main ^:skip-aot hh-website.core

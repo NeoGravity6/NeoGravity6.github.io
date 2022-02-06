@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: magnars/clj-v8:0.1.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/magnars/clj-v8/0.1.6/clj-v8-0.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
