@@ -77,7 +77,7 @@
 (defn export []
   (let [old-dir (load-export-dir)
         assets  (optimizations/all (get-assets) {})
-        pages   (get-pages (read-and-convert! source-dir))]
+        pages   (get-pages (merge pages (read-and-convert! source-dir)))]
     (stasis/empty-directory! target-dir)
     (optimus.export/save-assets assets target-dir)
     (stasis/export-pages pages target-dir {:optimus-assets assets})
