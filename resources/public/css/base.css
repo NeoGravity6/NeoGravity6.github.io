@@ -1,12 +1,79 @@
+@font-face {
+    font-family: "Catamaran";
+    src: url("../fonts/Catamaran-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Catamaran";
+    src: url("../fonts/Catamaran-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
 html{
-    font-size: 16px;
-    font-family: "sans-serif";
+    font-size: 1rem;
+    font-family: "Catamaran", sans-serif;
     line-height: 1.35;
 }
 
 body{
-    max-width: 600px;
-    margin-left: 25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content{
+    background-color: #070D59;
+    flex: 1;
+    text-align: center;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #1F3C88;
+    border-right: solid #b1b2b5 1px;
+}
+
+.sidebar ul{
+    padding-inline-start: 0;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15% 0;
+}
+
+.sidebar-logo{
+    width: 50%;
+}
+
+.sidebar-separator{
+    width: 60%;
+    border-top: double white 15px;
+    align-self: center;
+}
+
+.sidebar-menu{
+    margin-top: 2rem;
+}
+
+.sidebar-menu-link{
+    text-align: center;
+    font-size: 2rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.sidebar-menu-link a:link, .sidebar-menu-link a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-menu-link a:hover{
+    color: #F7B633;
 }
