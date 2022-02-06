@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: stasis:2.5.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/stasis/stasis/2.5.1/stasis-2.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

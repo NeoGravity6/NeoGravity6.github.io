@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: narkisr/clansi:1.2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/narkisr/clansi/1.2.0/clansi-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
