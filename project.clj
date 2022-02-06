@@ -5,7 +5,9 @@
             :url  "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.3"]
                  [stasis "2.5.1"]
-                 [ring "1.9.5"]]
+                 [ring "1.9.5"]
+                 [markdown-clj "1.10.5"]
+                 [hiccup "1.0.5"]]
   :plugins [[lein-ring "0.12.6"]]
   :ring {:handler hh-website.core/app}
   :main ^:skip-aot hh-website.core
