@@ -48,7 +48,8 @@
      [:link {:rel "icon" :href "/img/favicon.ico"}]
      [:link {:rel "apple-touch-icon" :href "/img/apple-touch-icon.png"}]
      [:body
-      sidebar
+      ; Sidebar is disabled for now until development of other pages
+      ;sidebar
       [:div {:class "content"}
        page]]]))
 

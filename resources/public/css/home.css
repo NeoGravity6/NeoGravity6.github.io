@@ -23,3 +23,12 @@
     width: 1.3rem;
     margin: 0 8px;
 }
+
+@media screen and (max-width: 500px) {
+    .home-header{
+        flex-direction: column;
+    }
+    .home-title{
+        text-align: center;
+    }
+}
