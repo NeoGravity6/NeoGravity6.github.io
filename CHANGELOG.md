@@ -7,3 +7,9 @@ All notable changes to this project will be documented in this file. This change
 * Base project setup with `stasis` and `lein`
 * Sidebar base component
 * Temporary homepage
+
+## 0.1.1 - 17/11/2022
+
+### Changed
+* Removed sidebar from temporary homepage
+* Added responsive design for temporary homepage
